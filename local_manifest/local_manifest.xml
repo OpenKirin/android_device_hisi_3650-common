@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<manifest>
+  <remote  name="OpenKirin"
+           fetch="https://github.com/OpenKirin/" />
+
+  <!-- Modified projects -->
+  <remove-project name="android_bootable_recovery" />
+  <project path="bootable/recovery" name="android_bootable_recovery" remote="OpenKirin" revision="android-7.1" />
+
+  <!-- Device projects -->
+  <project path="device/hisi/3650-common" name="android_device_hisi_3650-common" remote="OpenKirin" revision="twrp-nougat" />
+  <!--<project path="device/honor/frd" name="OpenKirin/android_device_honor_frd" remote="OpenKirin" revision="twrp-nougat" /> -->
+  <!--<project path="device/huawei/next" name="OpenKirin/android_device_huawei_next" remote="OpenKirin" revision="twrp-nougat" /> -->
+  <project path="device/huawei/eva" name="android_device_huawei_eva" remote="OpenKirin" revision="twrp-nougat" />
+  <!--<project path="device/huawei/vie" name="OpenKirin/android_device_huawei_vie" remote="OpenKirin" revision="twrp-nougat" />-->
+</manifest>

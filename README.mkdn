@@ -1,0 +1,15 @@
+android_device_hisi_3650-common
+===============================
+
+    Common TWRP device tree for HiSilicon Kirin 950/955 (hi3650), Nougat
+
+
+Currently supported
+-------------------
+
+* Honor 8 (frd) - https://github.com/OpenKirin/android_device_honor_frd
+* Huawei Mate 8 (next) - https://github.com/OpenKirin/android_device_huawei_next
+* Huawei P9 (eva) - https://github.com/OpenKirin/android_device_huawei_eva
+* Huawei P9 Plus (vie) - https://github.com/OpenKirin/android_device_huawei_vie
+
+BRANCH: twrp-nougat
