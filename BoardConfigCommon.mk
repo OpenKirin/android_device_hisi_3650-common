@@ -66,6 +66,7 @@ RECOVERY_SDCARD_ON_DATA := true
 RECOVERY_GRAPHICS_USE_LINELENGTH := true
 TW_BRIGHTNESS_PATH := /sys/class/leds/lcd_backlight0/brightness
 TW_CUSTOM_BATTERY_PATH := /sys/class/power_supply/Battery
+TW_DEVICE_VERSION := 2
 TW_EXCLUDE_SUPERSU := true
 TW_INCLUDE_CRYPTO := true
 TW_INCLUDE_NTFS_3G := true
