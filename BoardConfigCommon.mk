@@ -68,3 +68,4 @@ TW_BRIGHTNESS_PATH := /sys/class/leds/lcd_backlight0/brightness
 TW_CUSTOM_BATTERY_PATH := /sys/class/power_supply/Battery
 TW_EXCLUDE_SUPERSU := true
 TW_INCLUDE_CRYPTO := true
+TW_INCLUDE_NTFS_3G := true
