@@ -1,4 +1,5 @@
 import /init.recovery.hi3650.usb.rc
+import /init.recovery.hi3650.power.rc
 
 on init
     symlink /dev/block/platform/hi_mci.0 /dev/block/bootdevice
