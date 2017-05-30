@@ -24,7 +24,7 @@ service set_permissive /sbin/permissive.sh
 
 on init
     export PATH /sbin:/system/bin
-    export LD_LIBRARY_PATH .:/sbin
+    export LD_LIBRARY_PATH /sbin
 
     export ANDROID_ROOT /system
     export ANDROID_DATA /data
@@ -95,6 +95,7 @@ on late-init
     trigger firmware_mounts_complete
 
 on property:init.svc.volisnotd=stopped
+    umount /data
     trigger early-boot
     trigger boot
 

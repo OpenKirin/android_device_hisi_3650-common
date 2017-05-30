@@ -15,10 +15,7 @@
 #
 
 # Specify phone tech before including full_phone
-$(call inherit-product, vendor/omni/config/gsm.mk)
-
-# Inherit from the common Open Source product configuration
-$(call inherit-product, $(SRC_TARGET_DIR)/product/aosp_base_telephony.mk)
+$(call inherit-product, build/target/product/embedded.mk)
 
 # Inherit some common Omni stuff.
 $(call inherit-product, vendor/omni/config/common.mk)
@@ -46,4 +43,4 @@ PRODUCT_DEFAULT_PROPERTY_OVERRIDES += \
 
 # Time zone file
 PRODUCT_COPY_FILES += \
-    bionic/libc/zoneinfo/tzdata:root/system/usr/share/zoneinfo/tzdata
+    bionic/libc/zoneinfo/tzdata:recovery/root/system/usr/share/zoneinfo/tzdata
