@@ -95,7 +95,6 @@ on late-init
     trigger firmware_mounts_complete
 
 on property:init.svc.volisnotd=stopped
-    umount /data
     trigger early-boot
     trigger boot
 
