@@ -9,7 +9,6 @@ on property:ro.board.platform=hi3650
 
 on fs
     start volisnotd
-    mount ext4 /dev/block/bootdevice/by-name/vendor /vendor ro nosuid nodev
 
 service teecd /sbin/teecd
     user root
